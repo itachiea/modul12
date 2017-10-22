@@ -12,7 +12,7 @@ $(function(){
             paragraph.innerHTML = response.value.joke;
         });
         xhr.send();
-    };
+    }
 
     button.addEventListener('click', function() {
         getJoke();
@@ -22,4 +22,4 @@ $(function(){
                     //  było wciskać przycisku pobierania dowcipu. Innymi słowy: zastajemy stronę z już 
                     //  wygenerowanym dowcipem. Podpowiem, że można to zrobić, dopisując jedną linijkę kodu.
 
-})
+});
